@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border-radius: 15px;
+    height: auto;
+    margin: 100px auto;
+    padding: 20px 40px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: solid 1px;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 10px 10px;
+    padding: 50px;
+    
+}
+.botones{
+    display: flex;
+  
+    height: auto;
+
+}
+.numeros{
+    
+    height: auto;
+    
+}
+.operadores{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.pantalla{
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    border: solid 1px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor{
+    width: 10px;
+}
+
+#val1{
+    visibility: hidden;
+}
+
+#val2{
+    visibility: hidden;
+}
+
+.operacion{
+    display: flex;
+}
+
+.operador{
+    width: 20px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+
+.btn{
+    width: 30%;
+    height: 25%;
+    border: none;
+    border-radius: 5px;
+    background-color: aquamarine;
+    margin-bottom: 5px;
+
+}
+#borrar{
+    background-color: red;
+}
